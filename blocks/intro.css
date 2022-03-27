@@ -1,13 +1,16 @@
 .intro {
-    width: 96.9%;
+    /*width: 96.9%; */
     max-width: 984px;
-    margin: 92px 0 118px 0;
+    margin: 92px auto 118px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .intro__content {
     max-width: 785px;
     margin-right: auto;
-}
+} 
 
 .intro__title {
     font-family: 'Inter';
@@ -52,7 +55,7 @@
 @media screen and (max-width: 768px) {
     .intro {
         max-width: 720px;
-        margin: 88px 0 90px 0;
+        margin: 88px auto 90px;
     }
     .intro__content {
         width: 100%;

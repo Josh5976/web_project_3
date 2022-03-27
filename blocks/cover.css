@@ -49,10 +49,6 @@
 }
 
 .cover__text {
-    
-}
-
-.cover__text-item {
     margin: 0;
     font-family: 'Inter';
     font-weight: 400;
@@ -83,5 +79,26 @@
 @media screen and (max-width: 768px) {
     .cover {
         width: 100%;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        min-height: 254px;
+        max-height: 254px;
+        margin-bottom: 64px;
+        background-size: cover;
+    }
+    .cover__content {
+        min-width: 280px;
+    }
+    .cover__title {
+        font-size: 32px;
+        line-height: 1.09;
+    }
+    .cover__text {
+        font-size: 14px;
+        line-height: 1.14;
     }
 }
