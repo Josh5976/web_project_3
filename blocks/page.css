@@ -1,0 +1,18 @@
+.page {
+    background-color: #2a2c2f;
+    color: #FFFFFF;
+}
+
+.page__content {
+    min-width: 320px;
+    max-width: 1280px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page__content:nth-child(3) {
+    color: #faffaa;
+}
