@@ -105,7 +105,7 @@
 @media screen and (max-width: 768px) {
     .places {
         max-width: 720px;
-        margin-bottom: 92px;
+        padding-bottom: 92px;
         margin-top: 88px;
     }
     .places__item {
@@ -166,7 +166,7 @@
     .places {
         max-width: 320px;
         margin-top: 62px;
-        margin-bottom: 64px;
+        padding-bottom: 64px;
     }
     .places__artist {
         width: 288px;
