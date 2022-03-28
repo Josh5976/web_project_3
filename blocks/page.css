@@ -10,6 +10,8 @@
     margin: 0 auto;
 }
 
-.page__content:nth-child(3) {
-    color: #faffaa;
+@media screen and (max-width: 663px) {
+    .page__content {
+        overflow-x: hidden;
+    }
 }
