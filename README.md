@@ -21,3 +21,7 @@ Good luck and have fun!
 **Technologies**
 
 HTML and CSS(grid and flexbox)
+
+**Github Pages Link**
+
+--> https://josh5976.github.io/web_project_3/
