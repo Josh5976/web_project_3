@@ -8,7 +8,4 @@
 @import "../blocks/places.css";
 @import "../Inter_Web/inter.css";
 @import "../blocks/header.css";
-
-.body {
-    margin: 0;
-}
+@import "../blocks/body.css";
